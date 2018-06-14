@@ -1,2 +1,5 @@
-com\myapi\com\myapi\controllers\HelloWorldController.class
+com\myapi\com\myapi\model\Topic$TopicBuilder.class
+com\myapi\com\myapi\model\Topic.class
+com\myapi\com\myapi\controllers\TopicController.class
 com\myapi\MySpringBootApp.class
+com\myapi\com\myapi\controllers\HelloWorldController.class
