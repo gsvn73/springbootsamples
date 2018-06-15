@@ -1,4 +1,5 @@
 com\myapi\com\myapi\model\Topic$TopicBuilder.class
+com\myapi\com\myapi\com\myapi\services\TopicService.class
 com\myapi\com\myapi\model\Topic.class
 com\myapi\com\myapi\controllers\TopicController.class
 com\myapi\MySpringBootApp.class
