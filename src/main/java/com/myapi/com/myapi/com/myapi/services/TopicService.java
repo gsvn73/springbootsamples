@@ -19,12 +19,24 @@ public class TopicService {
     public List<Topic> getTopics() {
         return topics;
     }
-lkkkkk
+
     public Topic getTopicById(String id){
         return topics.stream().filter(a->a.getId().equals(id)).findFirst().get();
     }
 
     public void addTopic(Topic topic){
         topics.add(topic);
+    }
+
+    public void updateTopic(Topic topic) {
+        for(int i =0; i<topics.size(); i++){
+            if(topics.get(i).getId().equals(topic.getId())){
+                topics.set(i, topic);
+            }
+        }
+    }
+
+    public void deleteTopic(String topicId){
+        topics.removeIf(t->t.getId().equals(topicId));
     }
 }
