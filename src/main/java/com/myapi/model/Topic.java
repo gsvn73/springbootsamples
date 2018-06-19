@@ -10,7 +10,11 @@ import javax.persistence.Id;
  */
 @Data
 @Builder
+@Getter
+@Setter
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
 public class Topic {
 
     @Id
